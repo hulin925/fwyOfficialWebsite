@@ -101,7 +101,7 @@ li {
   font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB",
     "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   white-space: nowrap;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #eee;
   padding: 1.75rem;
   margin-right: 4rem;
@@ -136,6 +136,7 @@ li {
   } */
   .nav {
     margin: 0 5vw;
+    font-size:10rem;
   }
   .nav-item {
     margin: auto;

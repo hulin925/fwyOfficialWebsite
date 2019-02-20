@@ -2,6 +2,7 @@
 <div id="app">
     <Header @change="change" :index='index' />
     <router-view></router-view>
+    <Footer />
 </div>
 </template>
 
@@ -11,6 +12,7 @@ import Index from "./components/Index";
 import Law from "./components/Law";
 import Download from "./components/Download";
 import About from "./components/About";
+import Footer from "./components/Footer";
 export default {
   name: "App",
   data() {
@@ -30,6 +32,7 @@ export default {
     Download,
     About,
     Header,
+    Footer
   }
 };
 </script>
