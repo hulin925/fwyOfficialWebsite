@@ -9,6 +9,7 @@ import VueQrcode from '@xkeshi/vue-qrcode';
 import App from "./App";
 
 Vue.component(VueQrcode.name, VueQrcode);
+
 Vue.use(VueRouter);
 Vue.config.productionTip = false;
 

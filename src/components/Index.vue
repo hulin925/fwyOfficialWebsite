@@ -292,6 +292,7 @@ export default {
 
 .main-2-linellae img {
   height: 100%;
+  width:100%;
 }
 
 .main-3 {
@@ -345,6 +346,7 @@ export default {
 
 .main-3-linellae img {
   height: 100%;
+  width:100%;
 }
 
 .main-4 {

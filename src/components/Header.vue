@@ -45,10 +45,9 @@ export default {
     };
   },
   props: ["index"],
-  mounted: function() {
+  mounted:function(){
     let path = this.$route.path;
     for (let i of this.header) {
-      i.active = false;
       if (path === i.route) {
         i.active = true;
       }
