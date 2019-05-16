@@ -8,10 +8,6 @@
 
 <script>
 import Header from "./components/Header";
-import Index from "./components/Index";
-import Law from "./components/Law";
-import Download from "./components/Download";
-import About from "./components/About";
 import Footer from "./components/Footer";
 export default {
   name: "App",
@@ -27,10 +23,6 @@ export default {
     }
   },
   components: {
-    Index,
-    Law,
-    Download,
-    About,
     Header,
     Footer
   }

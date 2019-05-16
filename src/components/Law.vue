@@ -101,7 +101,6 @@ export default {
         })
       })
         .then(response => {
-          console.log(response);
           if (response && response.data.code == 11901) {
             console.log(response.data.data);
             for (let item of response.data.data) {
